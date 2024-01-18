@@ -11,7 +11,7 @@ const appInsights = new ApplicationInsights({ config: {
 useEffect(()=>{
   appInsights.loadAppInsights();
   appInsights.trackPageView();
-},[]);
+});
   const value = 'Worlds';
   return <div>Hello {value}</div>;
 }
