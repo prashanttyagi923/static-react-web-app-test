@@ -12,7 +12,7 @@ useEffect(()=>{
   appInsights.loadAppInsights();
   appInsights.trackPageView();
 },[]);
-  const value = 'World';
+  const value = 'Worlds';
   return <div>Hello {value}</div>;
 }
 
